@@ -82,5 +82,5 @@ print("Root Mean Squared Error:", rmse)
 print("R-squared:", r2)
 
 #export model and encoder
-joblib.dump(enc, 'one_hot_encoder.pkl')
+joblib.dump(enc, 'one_hot_encoder.joblib')
 joblib.dump(model, 'life_expectancy_model.joblib')
